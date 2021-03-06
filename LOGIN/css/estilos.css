@@ -1,0 +1,65 @@
+body {
+    background-image: url(../img/IMAGEN.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.formulario{
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.568);
+    color: white;
+}
+.form-control{
+    background: rgba(0,0,0,.3);
+    border-style: none;
+    transition: 0.5s ease-in;
+}
+.form-control::placeholder{
+    color:white;
+}
+.ingresar{
+    background: #222A3F;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.568);
+    transition: 0.5s ease-in;
+}
+.ingresar:hover{
+    color:white;
+}
+.olvide{
+    color: white;
+    cursor: pointer;
+}
+.olvide:hover{
+    color: rgb(80, 46, 134);
+}
+.registrarse{
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 600!important;
+    transition: 0.5s ease-in;
+    background: rgba(0,0,0,.5);
+}
+.registrarse:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+#titulo{
+    font-family: 'Stick', sans-serif;
+}
+#pass{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#us{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
